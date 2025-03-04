@@ -7,11 +7,15 @@ docker build -t my-memcache-app .
 docker run -d --name my-memcache-app -p 11211:11211 -p 80:80 my-memcache-app
 
 ## Test it
-### Install telnet
+### Install telnet (on Mac)
+```sh
 brew install telnet
+```
 
 ### Connect
+```sh
 telnet localhost 11211
+```
 
 ### Set and get a value
 ```sh
