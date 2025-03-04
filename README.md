@@ -22,3 +22,11 @@ VALUE mykey 0 4
 data
 END
 
+## Github
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/uequations/memcache-docker-app-example.git
+git push -u origin main
+
